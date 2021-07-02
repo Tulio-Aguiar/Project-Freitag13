@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Work+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans:wght@200;400&display=swap');
+
+body {
+    margin:0 auto;
+}
+
+/*---HEADER---*/
+
+header h6 { 
+text-align:center;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+
+}
+
+header h2 {
+text-align:center;
+font-family: 'Didact Gothic';
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 130%;
+
+letter-spacing:-0,02em;
+color: #000000;
+text-transform: uppercase;
+
+}
+
+header figure  { 
+
+  width:100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;  
+  
+  
+}
+
+header figure img {
+    width:45%;
+}
+
+header h1 {
+font-family: "Work Sans";
+text-align:center;
+font-size:100px;
+margin:150px 0 ;
+
+}
+
+ 
+
+.orbis {
+    background:url(../img/portfolio2.jpg) center/cover no-repeat;
+    padding:20px 8%;
+}
+
+.orbis h2 {
+
+font-family: "Didact Gothic";
+font-style: normal;
+font-weight: normal;
+font-size: 112px;
+line-height: 147px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+
+.orbis h6 {
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.05em;
+color: #9E9E9E;
+
+
+}
+
+.orbis h5 {
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.05em;
+color: #9E9E9E;
+}
+
+.orbis h1 {
+    
+    text-align: right;
+
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 180px;
+    line-height: 207px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    opacity: 0.3;
+    color: #9E9E9E;
+}
+
+.orbis button {
+
+padding:7px 20px;
+color:white;
+background:transparent;
+border: 2px solid #9E9E9E;
+
+}
+
+.orbis button h4 {
+
+
+font-family: 'Fjalla One';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+text-transform: uppercase;
+
+    
+}
+
+.orbis button:hover {
+    color:black;
+    background: white;
+}
+
+.orbis button:hover+h1 {
+    color:rgba(255, 255, 255, 1);
+   
+}
+
+
+ /*---roll---*/
+
+
+ .roll {
+    background:url(../img/portfolio3.png) center/cover no-repeat;
+    padding:30px 8%;
+    background-color: white;
+}
+
+.roll h2 {
+
+    
+font-family: "Didact Gothic";
+font-style: normal;
+font-weight: normal;
+font-size: 112px;
+line-height: 147px;
+text-transform: uppercase;
+color:black;
+margin-left: 180px;
+margin-top:230px;
+
+}
+
+.roll h6 {
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 50px;
+letter-spacing: -0.05em;
+color: #9E9E9E;
+margin-left:180px;
+margin-top:200px;
+
+
+}
+
+.roll h5 {
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.05em;
+color: #9E9E9E;
+}
+
+.roll h1 {
+    
+    text-align: right;
+
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 180px;
+    line-height: 207px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    opacity: 0.3;
+    color: #9E9E9E;
+}
+
+.roll h4 {
+    font-family: 'Fjala One';
+    font-size: 16px;
+}
+
+.roll button {
+
+padding:7px 20px;
+color:black;
+border: 2px solid #white;
+background:transparent;
+
+}
+
+.roll button h4 {
+
+
+font-family: 'Fjalla One';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+text-transform: uppercase;
+
+
+    
+}
+
+.roll button:hover {
+    color:white;
+    background:black;
+}
+
+.roll button:hover+h1 {
+    color:rgba(0, 0, 0, 1);
+}
+
+.roll button:hover+h4 {
+    color:black;
+}
+
+/*---galitos---*/
+
+.galitos {
+    background:url(../img/portfolio4.jpg) center/cover no-repeat;
+    padding:20px 8%;
+}
+
+
+
+.galitos h2 {
+
+    font-family: "Didact Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 112px;
+    line-height: 147px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    }
+    
+    .galitos h6 {
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    
+    
+    }
+    
+    .galitos h5 {
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    color: #9E9E9E;
+    }
+    
+    .galitos h1 {
+        
+        text-align: right;
+    
+        font-family: 'Fjalla One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 180px;
+        line-height: 207px;
+        text-align: right;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        opacity: 0.3;
+        color: #9E9E9E;
+    }
+    
+    .galitos button {
+    
+    padding:7px 20px;
+    color:white;
+    background:transparent;
+    border: 2px solid #9E9E9E;
+    
+    }
+    
+    .galitos button h4 {
+    
+    
+    font-family: 'Fjalla One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+        
+    }
+    
+    .galitos button:hover {
+        color:black;
+        background: white;
+    }
+    
+    .galitos button:hover+h1 {
+        color:whitesmoke;
+    }
+
+
+    /*---tretto---*/
+
+    .tretto {
+        background:url(../img/portfolio5.png) center/cover no-repeat;
+        padding:20px 8%;
+    }
+    
+    
+    
+    .tretto h2 {
+    
+        font-family: "Didact Gothic";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 112px;
+        line-height: 147px;
+        text-transform: uppercase;
+        color:black;
+        
+        }
+        
+        .tretto h6 {
+        
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.05em;
+        color: #9E9E9E;
+        
+        
+        }
+        
+        .tretto h5 {
+        
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.05em;
+        color: #9E9E9E;
+        }
+        
+        .tretto h1 {
+            
+            text-align: right;
+        
+            font-family: 'Fjalla One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 180px;
+            line-height: 207px;
+            text-align: right;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            opacity: 0.3;
+            color: #9E9E9E;
+        }
+        
+        .tretto button {
+        
+        padding:7px 20px;
+        color:black;
+        background:transparent;
+        border: 2px solid #9E9E9E;
+        
+        }
+        
+        .tretto button h4 {
+        
+        
+        font-family: 'Fjalla One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        text-transform: uppercase;
+        
+            
+        }
+        
+        .tretto button:hover {
+            color:white;
+            background:black;
+        }
+        
+        .tretto button:hover+h1 {
+            color:black;
+        }
+
+
+
+/*---.more ---*/
+
+.more figure {
+    margin:0 auto;
+    background:#000000;
+    padding:30px 8%;
+}
+
+.more figure p {
+    font-family:'Work Sans';
+    text-align:center;
+    color:white;
+    font-size: 180px;
+}
+
+.more figure h4 {
+    font-family:'Work Sans';
+    text-align:justify;
+    color:#666666;
+    margin-left: 750px;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.more figure h3 {
+    font-family:'Work Sans';
+    text-align:center;
+    color:white;
+    font-size: 60px;
+    margin-left: 400px;
+}
+
+/*---footer---*/
+
+.heart h1,p,h2 {
+    text-align:center;
+    color:black;
+    font-size: 160px;
+    font-family: 'Didact Gothic';
+    font-style: normal;
+    line-height: 210px;
+    margin-top:240px;
+}
+
+footer h3{
+    text-align:center;
+    padding:100px 0;
+}
+
+footer h3  {
+    animation: bounce 1s ease infinite
+}
+
+@keyframes bounce {
+    from {
+      transform: scale(1);
+    }
+  
+    to {
+      transform: scale(1.3);
+    }
+  }
+
+
+
+
+
+	
